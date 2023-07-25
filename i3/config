@@ -191,7 +191,7 @@ bindsym XF86MonBrightnessUp exec --no-startup-id light -A 10 # increase screen b
 bindsym XF86MonBrightnessDown exec --no-startup-id light -U 10 # decrease screen brightness
 
 # Picom
-exec_always picom
+exec_always picom --config /home/ramen/.config/picom.conf
 
 # Alacritty
 exec alacritty
