@@ -3,4 +3,4 @@
 </p>
 
 # I use arch linux as a daily driver
-i3wm, alacritty terminal, zsh for shell, polybar, etc.
+window managers, custom terminal, custom shell, custom bar, custom themes, etc.
