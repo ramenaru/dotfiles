@@ -54,7 +54,7 @@ bindsym $mod+Return exec alacritty
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id dmenu_run -b -nb "#282A2E" -nf "#C5C8C6" -sb "#5A5AF5" -sf "#282A2E"
+bindsym $mod+d exec --no-startup-id dmenu_run -b -nb "#282A2E" -nf "#C5C8C6" -sb "#FA8072" -sf "#282A2E"
 
 # change focus
 bindsym $mod+j focus left
@@ -199,9 +199,10 @@ exec alacritty
 # Polybar
 exec --no-startup-id  polybar
 
+#gaps
+gaps inner 4 
+gaps outer 4
+
 # Screenshoot
 set $screenshot_dir /home/ramen/Screenshot
 bindsym Print exec scrot $screenshot_dir/$(date '+%Y-%m-%d_%H-%M-%S').png && sleep 0.5 && xclip -selection clipboard -t image/png -i $screenshot_dir/$(date '+%Y-%m-%d_%H-%M-%S').png
-
-
-
