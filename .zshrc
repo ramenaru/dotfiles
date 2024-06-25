@@ -1,18 +1,19 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
-# Path to your installation.
+# Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 export PATH="$PATH:/home/ramenaru/packages/tools/flutter/bin"
-export PATH="$PATH:/home/ramenaru/libs/android/platform-tools"
 export PATH="$PATH:/home/ramenaru/packages/tools/android-studio/bin"
+# Making some alias usefull
+alias extend-display="xrandr --output eDP1 --mode 1366x768 --primary --output HDMI2 --mode 1360x768 --rate 60 --right-of eDP1"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="awesomepanda"
-
+ZSH_THEME="geoffgarside"
+export BAT_THEME=gruvbox-dark
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
@@ -73,7 +74,22 @@ ZSH_THEME="awesomepanda"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git z history-substring-search extract web-search alias-finder docker zsh-autosuggestions archlinux zsh-syntax-highlighting)
+plugins=(
+	git 
+	zsh-syntax-highlighting 
+	zsh-history-substring-search
+	web-search
+	copyfile
+	zsh-z
+	sudo
+	copypath
+	extract
+)
+
+# Make some custom url when web-search
+ZSH_WEB_SEARCH_ENGINES=(
+	reddit "https://www.reddit.com/search/?q="
+	)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -102,6 +118,3 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-#
-# Plugin Customization
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=cyan,bg=#696969"
