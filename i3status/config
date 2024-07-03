@@ -1,0 +1,25 @@
+general {
+    colors = true
+    interval = 5
+}
+
+order += "cpu_usage"
+order += "load"
+order += "tztime"
+
+cpu_usage {
+    format = "CPU: %usage"
+}
+
+load {
+    format = "Load: %1min"
+}
+
+tztime {
+    format = "%Y-%m-%d %H:%M:%S"
+}
+
+color_good = "#b8bb26"
+color_degraded = "#d79921"
+color_bad = "#fb4934"
+
