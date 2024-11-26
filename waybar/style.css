@@ -1,0 +1,150 @@
+/* General Reset */
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "Cascadia Code", monospace;
+    font-size: 13px;
+    min-height: 0;
+}
+
+/* Waybar Window Styling */
+window#waybar {
+    background: transparent;  /* Gruvbox dark background */
+    color: #ebdbb2;  /* Gruvbox light foreground color */
+}
+
+/* Specific window section styles */
+#window {
+    font-weight: bold;
+    font-family: "Ubuntu", sans-serif;
+}
+
+/* Workspaces */
+#workspaces button {
+    padding: 0 5px;
+    background: transparent;
+    color: #ebdbb2;
+    border-top: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+#workspaces button:hover {
+    color: #8ec07c;  /* Gruvbox green */
+    background: #3c3836;
+}
+
+#workspaces button.focused {
+    color: #c9545d;  /* Gruvbox red */
+    border-top: 2px solid #c9545d;
+}
+
+/* Mode Indicator */
+#mode {
+    background: #64727D;  /* Gruvbox gray */
+    border-bottom: 3px solid #ebdbb2;
+    padding: 0 5px;
+}
+
+#mode span {
+    color: #ebdbb2;
+    font-style: italic;
+}
+
+/* Clock */
+#clock {
+    padding: 0 5px;
+    font-weight: bold;
+}
+
+/* Battery */
+#battery {
+    padding: 0 5px;
+}
+
+#battery icon {
+    color: #d79921;  /* Gruvbox yellow */
+}
+
+#battery.charging {
+    color: #b8bb26;  /* Gruvbox green */
+}
+
+#battery.warning:not(.charging) {
+    color: #fb4934;  /* Gruvbox red */
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* CPU */
+#cpu {
+    padding: 0 5px;
+    color: #ebdbb2;
+}
+
+#cpu:hover {
+    background: #3c3836;
+    color: #d79921;
+}
+
+/* Memory */
+#memory {
+    padding: 0 5px;
+    color: #ebdbb2;
+}
+
+#memory:hover {
+    background: #3c3836;
+    color: #8ec07c;
+}
+
+/* Network */
+#network {
+    padding: 0 5px;
+    color: #ebdbb2;
+}
+
+#network.disconnected {
+    background: #f53c3c;
+    color: #ffffff;
+}
+
+/* Pulseaudio */
+#pulseaudio {
+    padding: 0 5px;
+    color: #ebdbb2;
+}
+
+#pulseaudio.muted {
+    color: #928374;  /* Gruvbox gray */
+}
+
+/* Spotify */
+#custom-spotify {
+    color: #a9b665;  /* Gruvbox greenish */
+}
+
+/* System Tray */
+#tray {
+    padding: 0 5px;
+}
+
+#tray .tray-item {
+    transition: all 0.3s ease;
+}
+
+#tray .tray-item:hover {
+    background: #3c3836;
+    color: #d79921;
+}
+
+/* Keyframes for blinking battery warning */
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: #282828;
+    }
+}
+

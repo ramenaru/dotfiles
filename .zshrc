@@ -12,7 +12,6 @@ ZSH_THEME="geoffgarside"
 
 # Set Alias
 alias vim=nvim
-alias extend-display="xrandr --output eDP1 --mode 1366x768 --primary --output HDMI2 --mode 1360x768 --rate 60 --right-of eDP1"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
