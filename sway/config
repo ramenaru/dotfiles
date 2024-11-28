@@ -206,13 +206,21 @@ client.urgent           $urgent-bg-color $urgent-bg-color $text-color
 # Border Configurations
 
 # Remove Border
-for_window [class="^.*"] border pixel 0 
+for_window [class="^.*"] border pixel 0
+
 
 exec swayfx
 
 # Gaps
-gaps inner 2
-gaps outer 2
+gaps inner 4
+gaps outer 4
+corner_radius 6
+
+# Apply blur with reduced intensity
+layer_effects "waybar" blur enable;
+blur_xray disable
+blur_passes 1
+blur_radius 3
 
 # Utilities:
 
