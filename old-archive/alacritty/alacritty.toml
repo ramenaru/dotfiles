@@ -1,6 +1,10 @@
 [window]
 opacity = 0.8
 
+[window.padding]
+x = 6
+y = 6
+
 [window.dimensions]
 columns = 0
 lines = 0
@@ -9,7 +13,7 @@ lines = 0
 family = "cascadia code"
 style = "Regular"
 
-[shell]
+[terminal.shell]
 program = "/usr/bin/zsh"
 
 [colors.primary]
@@ -35,3 +39,5 @@ blue = '0x83a598'
 magenta = '0xd3869b'
 cyan = '0x8ec07c'
 white = '0xebdbb2'
+
+[terminal]
