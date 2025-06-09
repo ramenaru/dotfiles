@@ -2,12 +2,18 @@
 
 <div align="center">
   <a href="https://github.com/ramenaru/dotfiles"><img src="screenshot-1.png" alt="Banner Screenshot"></a>
-  <br>
-  <p>*A clean, productivity-focused(anime) SwayWM setup.*</p>  
+  
+  <br />
+
+  [![MIT License](https://img.shields.io/github/license/ramenaru/dotfiles)](LICENSE)
+  [![Issues](https://img.shields.io/github/issues/ramenaru/dotfiles)](https://github.com/ramenaru/dotfiles/issues)
+  [![Pull Requests](https://img.shields.io/github/issues-pr/ramenaru/dotfiles)](https://github.com/ramenaru/dotfiles/pulls)
+
+  <strong>A clean, productivity-focused(anime) Arch Linux SwayWM setup</strong>  
 </div>
 
 ## Features
-- **Theming**: One Dark Pro color scheme (VSCode-inspired)
+- **Theming**: One Dark Pro color scheme [VSCode's One Dark Pro theme inspired](https://github.com/Binaryify/OneDark-Pro)
 - **Components**:
   - SwayWM (tiling window manager)
   - Waybar (custom status bar)
@@ -93,4 +99,3 @@ colorscheme onedark
 
 ## License
 Distributed under MIT License see [LICENSE](LICENSE) for more information.  
-*"Inspired by VSCode's One Dark Pro theme"*
