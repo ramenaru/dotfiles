@@ -92,6 +92,9 @@ My neovim config is separated on another repository [nvim config](https://github
 ## Shell Conifg
 I'm using [ohmyZsh](https://ohmyz.sh/) 
 
+## Sddm(Lock Manager) Config
+I'm using one of the best themes by [Keyitdev](https://github.com/Keyitdev/sddm-astronaut-theme)
+
 ## Troubleshooting
 **Issue**: Wrong colors in terminal  
 **Fix**: Ensure `termguicolors` is set in Neovim:  
