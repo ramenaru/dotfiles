@@ -8,7 +8,7 @@
   [![Repository Stars](https://img.shields.io/github/stars/ramenaru/dotfiles)](https://github.com/ramenaru/dotfiles/)
   [![Repository Forks](https://img.shields.io/github/forks/ramenaru/dotfiles)](https://github.com/ramenaru/dotfiles/)
 
-  [![MIT License](https://img.shields.io/github/license/ramenaru/dotfiles)](LICENSE)
+  [![MIT Licenses](https://img.shields.io/github/license/ramenaru/dotfiles)](LICENSE)
   [![Issues](https://img.shields.io/github/issues/ramenaru/dotfiles)](https://github.com/ramenaru/dotfiles/issues)
   [![Pull Requests](https://img.shields.io/github/issues-pr/ramenaru/dotfiles)](https://github.com/ramenaru/dotfiles/pulls)
 
