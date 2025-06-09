@@ -1,0 +1,43 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 24,  
+  "spacing": 2,
+  "modules-left": ["sway/workspaces", "sway/mode"],
+  "modules-center": ["sway/window"],
+  "modules-right": ["network", "pulseaudio", "cpu", "memory", "battery", "clock", "tray"],
+  
+  "network": {
+    "format": "  {essid}",
+    "format-disconnected": "  Disconnected"
+  },
+  "pulseaudio": {
+    "format": "{icon}  {volume}%",
+    "format-icons": ["", "", ""],
+    "format-muted": "  Muted"
+  },
+  "cpu": {
+    "format": "  {usage}%"
+  },
+  "memory": {
+    "format": "  {percentage}%"
+  },
+  "battery": {
+    "format": "{icon}  {capacity}%",
+    "format-icons": ["", "", "", "", ""],
+    "format-charging": "  {capacity}%"
+  },
+  "clock": {
+    "format": "  {:%H:%M}"
+  },
+  
+  "colors": {
+    "background": "#282c34",       
+    "foreground": "#abb2bf",       
+    "primary": "#61afef",          
+    "warning": "#e5c07b",          
+    "critical": "#e06c75",         
+    "inactive": "#545862",         
+    "urgent": "#be5046"            
+  }
+}
