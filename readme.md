@@ -27,6 +27,12 @@
 - **Keybindings**: Vim-like navigation + IDE conveniences
 - **Performance**: Optimized for 165Hz displays (current test only on my devices)
 
+## Fonts Usage
+- **List fonts that i used**:
+  - Ubuntu (for major screen application)
+  - JetBrains Mono (for terminal, and code usage)
+  - Mixed NerdFonts (for icon fonts)
+
 ## Color Scheme Reference
 | Element          | Hex       | Usage Example               |
 |------------------|-----------|-----------------------------|
